@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posisi Teks</title>
+    <style>
+        body {
+            background-color: #afff59;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            background-color: rgb(185, 254, 106);
+            padding: 20px;
+            color: white;
+            box-shadow: 0px 0px 10px rgba(138, 244, 67, 0.1);
+        }
+
+        .kotak, .kotak2 {
+            display: flex;
+            justify-content: center;  
+            align-items: center;     
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            width: 300px;
+            height: 200px;
+            color: white;
+        }
+       
+
+        .kotak {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 10px;
+            font-size: 20px;
+            background-color: rgb(142, 207, 124);
+        }
+
+        .kotak2 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: 10px;
+            font-size: 20px;
+            background-color: rgb(142, 207, 124);
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak">Hello word!</div>
+    <div class="box">
+        <p>Hello word!</p>
+    </div>
+    <div class="kotak2">Hello word</div>
+</body>
+</html>
